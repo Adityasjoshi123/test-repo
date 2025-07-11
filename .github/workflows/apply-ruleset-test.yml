@@ -47,10 +47,7 @@ jobs:
                   "parameters": {}
                 },
                 {
-                  "type": "deletion",
-                  "parameters": {
-                    "block_deletions": true
-                  }
+                  "type": "deletion"
                 }
               ]
             }')
