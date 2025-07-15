@@ -74,7 +74,7 @@ jobs:
     steps:
       - name: Set allowed merge methods
         env:
-          GH_TOKEN: ${{ secrets.ORG_ADMIN_PAT }}
+          GH_TOKEN: ${{ secrets.MY_PAT }}
           REPO_OWNER: Adityasjoshi123
           REPO_NAME: test-repo
         run: |
